@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+/* Base */
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #ddd; /* Lichtgrijs */
+    background-color: #333; /* Donkergrijs */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+a {
+    color: #ddd; /* Oranje */
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #c7c7c7; /* Donkeroranje */
+}
+
+h1 {
+    font-size: 24px;
+    color: #ddd; /* Lichtgrijs */
+}
+
+h2 {
+    font-size: 16px;
+    color: #ddd; /* Lichtgrijs */
+}
+
+ul, ol {
+    line-height: 24px;
+    margin-bottom: 20px;
+    background-color: #444;
+}
+
+#container {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #444; /* Donkergrijs */
+}
+
+.afbeelding {
+    width: 200px;
+    height: auto;
+    border: 2px solid #444; /* Donkergrijs */
+    margin: 10px; 
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #444;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Navigatie */
+nav {
+    background-color: #2c3e50; /* Donkerblauw */
+    color: white;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #34495e; /* Donkerder blauw */
+    color: white;
+}
+
+/* Content */
+.content {
+    background-color: #555; /* Donkergrijs */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.intro {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2c3e50; /* Donkerblauw */
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Kwaliteiten Pagina*/
+
+.wie {
+    background-color: #444;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.kwaliteiten-wel {
+    background-color: #444;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.kwaliteiten-beetje {
+    background-color: #444;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.kwaliteiten-niet {
+    background-color: #444;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.waarom-kwaliteiten {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.waarom-kwaliteiten-niet {
+    background-color: #444;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.motieven-wel {
+    background-color: #444;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.waarom-motieven {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Reflectie Pagina */
+
+.reflectie {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+/*Opleiding*/
+
+.opleiding {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+/*Contact*/
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-container .mail,
+.contact-container .tel {
+    background-color: #444;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+    max-width: 45%;
+}
+
+.contact-container .mail p,
+.contact-container .tel p {
+    margin: 0;
+    color: white;
+}
+
+.contact-container img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
